@@ -3,4 +3,4 @@ Created an advertisement delivery website based on thecreate-react-appscaffoldin
 
 1. yarn install
 2. yarn run build
-Automatically Rebuilding Application: yarn run watch
+3. Automatically Rebuilding Application: yarn run watch
