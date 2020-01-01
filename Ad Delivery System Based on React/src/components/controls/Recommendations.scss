@@ -1,0 +1,33 @@
+@import '../../main';
+
+.recommendations {
+  .recommend-list{
+    width: 840px;
+    .recommendations__single {
+      border: 1px black solid;
+      background: white;
+      margin: 4px;
+      padding: 4px;
+      padding-right: 15px;
+      min-width: 150px;
+      width: 33.33%;
+      float: left;
+      max-width: 250px;
+      height: 170px;
+      overflow: auto;
+      .close{
+        font-size: 20px;
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        cursor: pointer;
+      }
+    }
+  }
+  .text-container{
+    margin-top: 10px;
+  }
+  .btn-container{
+    margin-top: 10px;
+  }
+}
